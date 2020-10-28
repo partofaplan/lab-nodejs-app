@@ -25,7 +25,7 @@ export default function FirstPost() {
        }}>
        <h2>Cloud & DevOps Engineer</h2>
        </motion.div>
-     <br />
+       <br />
        <motion.div initial="hidden" animate="visible" variants={{
          hidden: {
            scale: .8,
@@ -39,10 +39,10 @@ export default function FirstPost() {
            }
          },
        }}>
-       function textBlock1() {
-         return <embed src="/text-block-1.txt" />
-       }
-       export default textBlock1
+         <h3>Profile</h3>
+         <p>Experienced and reliable IT professional with over six years of experience working in a wide-range of enterprises to ensure the optimal performance of their application systems using automation and cloud technologies. Adept in providing solutions to improve and enhance services within a devops framework. Bringing forth a growth mindset and seeking to find the best path forward for the users.</p>
+         <br />
+         
        </motion.div>
        <h2>
          <Link href="/">
