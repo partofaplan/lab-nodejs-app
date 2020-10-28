@@ -37,14 +37,12 @@ export default function FirstPost() {
           transition: {
             delay: .8
             }
-         },
-       }}>
-      function textBlock() {
+        }
+      }}>
+      function textBlock1() {
         return <embed src="/text-block-1.txt" />
-        return <embed src="/text-block-2.txt" />
       }
-      export default textBlock        
-      <br />
+      export default textBlock1
       </motion.div>
 
       <h2>
