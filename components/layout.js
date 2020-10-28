@@ -2,6 +2,7 @@
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 const name = 'Zach Perkins'
 export const siteTitle = 'Next.js Sample Website'

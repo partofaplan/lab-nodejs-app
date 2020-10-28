@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\components",
+    "\\pages",
+    "\\pages\\posts",
+    "\\public",
+    "\\styles"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\pages\\index.js",
   "PreviewInSolutionExplorer": false
 }
