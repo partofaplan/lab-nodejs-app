@@ -23,33 +23,32 @@ export default function FirstPost() {
            }
          },
        }}>
-      <h2>Cloud & DevOps Engineer</h2>
-      </motion.div>
-      <br />
-      <motion.div initial="hidden" animate="visible" variants={{
-        hidden: {
-          scale: .8,
-          opacity: 0
-        },
-        visible: {
-          scale: 1,
-          opacity: 1,
-          transition: {
-            delay: .8
-            }
-        }
-      }}>
-      function textBlock1() {
-        return <embed src="/text-block-1.txt" />
-      }
-      export default textBlock1
-      </motion.div>
-
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
+       <h2>Cloud & DevOps Engineer</h2>
+       </motion.div>
+     <br />
+       <motion.div initial="hidden" animate="visible" variants={{
+         hidden: {
+           scale: .8,
+           opacity: 0
+         },
+         visible: {
+           scale: 1,
+           opacity: 1,
+           transition: {
+             delay: .8
+           }
+         },
+       }}>
+       function textBlock1() {
+         return <embed src="/text-block-1.txt" />
+       }
+       export default textBlock1
+       </motion.div>
+       <h2>
+         <Link href="/">
+         <a>Back to home</a>
+         </Link>
+       </h2>
     </Layout>
   )
 }           
