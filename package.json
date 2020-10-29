@@ -8,9 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
+    "framer-motion": "latest",
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "framer-motion": "latest"
+    "react-dom": "16.13.1"
   }
 }

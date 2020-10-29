@@ -5,8 +5,10 @@
     "\\pages",
     "\\pages\\posts",
     "\\public",
+    "\\public\\images",
+    "\\static",
     "\\styles"
   ],
-  "SelectedNode": "\\pages\\index.js",
+  "SelectedNode": "\\pages\\posts\\portfolio.js",
   "PreviewInSolutionExplorer": false
 }
