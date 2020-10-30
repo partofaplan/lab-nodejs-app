@@ -2,7 +2,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
 import { motion, AnimatePresence } from 'framer-motion'
-import * as React from "react"
+import * as React from 'react'
+//Test area for styling
+
 
 export default function Header() {
   return (
