@@ -1,7 +1,6 @@
 import * as React from "react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "semantic-ui-react"
 
 export default function Education() {
   return (
@@ -36,6 +35,11 @@ const ContentsEd = () => {
   return (
     <>
       <h4>Metropolitan Community College</h4>
+      <p><i>AA - General Studies - Psychology</i><br />
+        <b>Graduation:</b> 2015</p>
+      <h4>Western Governors University</h4>
+      <p><i>BS - Cloud Computing</i><br />
+        <b>Graduation:</b> 2021</p>
 
     </>
   );

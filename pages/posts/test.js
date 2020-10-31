@@ -5,6 +5,7 @@ import Layout from "../../components/layout"
 import Experience from "../../components/experience"
 import Education from "../../components/education"
 import Certifications from "../../components/certifications"
+import Social from "../../components/social"
 
 export default function test() {
   return (
