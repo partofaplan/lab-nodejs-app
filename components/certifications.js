@@ -47,7 +47,7 @@ const ClickCertifications = () => {
   const handleClick = () => setIsOpen(!isOpen);
   return (
     <>
-      <button class="ui button" onClick={handleClick}><h3>Certifications</h3></button>
+      <button class="ui massive blue fluid button" onClick={handleClick}>Certifications</button>
       <CollapseCert isOpen={isOpen} />
     </>
   );

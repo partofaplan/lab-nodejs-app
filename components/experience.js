@@ -1,7 +1,6 @@
 import * as React from "react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "semantic-ui-react"
 
 export default function Experience() {
   return (
@@ -46,17 +45,15 @@ const ContentsExp = () => {
           </ul></p>
         </>
       );
-    };
+};
 
 const ClickExperience = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => setIsOpen(!isOpen);
   return (
     <>
-      <Button class="ui button" onClick={handleClick}>Experience</Button>
+      <button class="ui massive blue fluid button" onClick={handleClick}>Experience</button>
       <CollapseExp isOpen={isOpen} />
     </>
   );
 };
-
-

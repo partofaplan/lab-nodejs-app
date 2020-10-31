@@ -27,6 +27,7 @@ export default function test() {
       }}>
         <h2>Cloud & DevOps Engineer</h2>
       </motion.div>
+      <br />
         <Experience />
         <Education />
         <Certifications />

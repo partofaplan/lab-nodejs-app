@@ -47,7 +47,7 @@ const ClickEducation = () => {
   const handleClick = () => setIsOpen(!isOpen);
   return (
     <>
-      <button class="ui button" onClick={handleClick}><h3>Education</h3></button>
+      <button class="ui massive blue fluid button" onClick={handleClick}>Education</button>
       <CollapseEd isOpen={isOpen} />
     </>
   );
