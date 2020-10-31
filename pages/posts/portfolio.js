@@ -6,7 +6,7 @@ import * as React from 'react'
 //Test area for styling
 
 
-export default function Header() {
+export default function Portfolio () {
   return (
     <Layout>
       <Head>
