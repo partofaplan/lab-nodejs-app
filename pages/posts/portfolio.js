@@ -27,10 +27,24 @@ export default function Portfolio() {
       }}>
         <h2>Cloud & DevOps Engineer</h2>
       </motion.div>
+      <motion.div initial="hidden" animate="visible" variants={{
+        hidden: {
+          scale: .8,
+          opacity: 0
+        },
+        visible: {
+          scale: 1,
+          opacity: 1,
+          transition: {
+            delay: .8
+          }
+        },
+      }}>
       <br />
         <Experience />
         <Education />
         <Certifications />
+      </motion.div>
     </Layout>
   )
 };
