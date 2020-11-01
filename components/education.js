@@ -34,13 +34,14 @@ const CollapseEd = ({ isOpen }) => {
 const ContentsEd = () => {
   return (
     <>
+      <br />
       <h4>Metropolitan Community College</h4>
       <p><i>AA - General Studies - Psychology</i><br />
         <b>Graduation:</b> 2015</p>
       <h4>Western Governors University</h4>
       <p><i>BS - Cloud Computing</i><br />
         <b>Graduation:</b> 2021</p>
-
+      <br />
     </>
   );
 };
@@ -51,7 +52,7 @@ const ClickEducation = () => {
   const handleClick = () => setIsOpen(!isOpen);
   return (
     <>
-      <button class="ui massive blue fluid button" onClick={handleClick}>Education</button>
+      <button class="ui massive yellow fluid labeled icon button" onClick={handleClick}><i class="caret down icon"></i>Education</button>
       <CollapseEd isOpen={isOpen} />
     </>
   );

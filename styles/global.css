@@ -24,3 +24,9 @@ img {
     max-width: 100%;
     display: block;
 }
+
+block-img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+

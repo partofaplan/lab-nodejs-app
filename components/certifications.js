@@ -34,8 +34,10 @@ const CollapseCert = ({ isOpen }) => {
 const ContentsCert = () => {
   return (
     <>
-      <h4>CompTIA A+, Sec+, Project+, Cloud Essentials, Network+</h4>
-
+      <br />
+      <h4>CompTIA</h4>
+        <p>A+, Sec+, Project+, Cloud Essentials, Network+</p>
+      <br />
     </>
   );
 };
@@ -46,7 +48,7 @@ const ClickCertifications = () => {
   const handleClick = () => setIsOpen(!isOpen);
   return (
     <>
-      <button class="ui massive blue fluid button" onClick={handleClick}>Certifications</button>
+      <button class="ui massive green fluid labeled icon button" onClick={handleClick}><i class="caret down icon"></i>Certifications</button>
       <CollapseCert isOpen={isOpen} />
     </>
   );

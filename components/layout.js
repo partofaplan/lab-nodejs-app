@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Project for learning how to build a Next.js site"
         />
         <meta
           property="og:image"
@@ -51,6 +51,12 @@ export default function Layout({ children, home }) {
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
+              <h2>Cloud & DevOps Engineer</h2>
+              <div class="ui large buttons">
+                <button class="ui button">Integration</button>
+                <div class="or" data-text="+"></div>
+                <button class="ui button">Improvement</button>
+              </div>
           </>
         )}
       </header>

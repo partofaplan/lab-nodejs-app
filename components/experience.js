@@ -33,6 +33,7 @@ const CollapseExp = ({ isOpen }) => {
 const ContentsExp = () => {
       return (
         <>
+          <br />
           <h4>Infrastructure Automation Engineer at Boys Town</h4>
           <p><ul><li>Created reliable automated workflows for service delivery of VMs and applications using vRealize Automation, Rundeck, and Powershell.</li>
             <li>Helped develop Azure cloud app deployment pipeline for integration with the CI/CD pipeline web applications.</li>
@@ -62,7 +63,8 @@ const ContentsExp = () => {
             <li>Participated in security audits of core applications and provided DoD with comprehensive documentation on application platform security.</li>
             <li>Performed load testing for applications using JVM and jMeter tools.</li>
             <li>Migrated strategic platform software to AWS cloud and improved platform performance.</li>
-          </ul></p>  
+          </ul></p>
+          <br />
         </>
       );
 };
@@ -72,7 +74,7 @@ const ClickExperience = () => {
   const handleClick = () => setIsOpen(!isOpen);
   return (
     <>
-      <button class="ui massive blue fluid button" onClick={handleClick}>Experience</button>
+      <button class="ui massive blue fluid labeled icon button" onClick={handleClick}><i class="caret down icon"></i>Experience</button>
       <CollapseExp isOpen={isOpen} />
     </>
   );
