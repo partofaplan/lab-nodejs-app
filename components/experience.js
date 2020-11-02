@@ -74,7 +74,7 @@ const ClickExperience = () => {
   const handleClick = () => setIsOpen(!isOpen);
   return (
     <>
-      <button class="ui massive purple fluid labeled icon button" onClick = { handleClick } > <i class="caret down icon"></i>Experience</button>
+      <button class="ui massive violet fluid labeled icon button" style={{ textAlign: "left" }} onClick={handleClick} > <i class="caret down icon"></i>Experience</button>
       <CollapseExp isOpen={isOpen} />
     </>
   );
