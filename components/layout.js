@@ -35,29 +35,29 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
-          <>
-            <Link href="/">
-              <a>
-                <img
-                  src="/images/handsome.jpg"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
+            <>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a>
+                  <img
+                    src="/images/handsome.jpg"
+                    className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                    alt={name}
+                  />
+                </a>
               </Link>
-            </h2>
+              <h2 className={utilStyles.headingLg}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>{name}</a>
+                </Link>
+              </h2>
               <h2>Cloud & DevOps Engineer</h2>
               <div class="ui large buttons">
                 <button class="ui button">Integration</button>
                 <div class="or" data-text="+"></div>
                 <button class="ui button">Improvement</button>
               </div>
-          </>
-        )}
+            </>
+          )}
       </header>
       <main>{children}</main>
       {!home && (
@@ -69,14 +69,14 @@ export default function Layout({ children, home }) {
       )}
       {!home && (
         <footer className={styles.footer}>
-          <a href="https://www.linkedin.com/in/zachperkins" target="_blank">
-            <button class="ui linkedin circular icon button"><i aria-hidden="true" class="linkedin icon"></i></button>
-          </a>
-          <a href="https://github.com/partofaplan" target="_blank">
-            <button class="ui github circular icon button"><i aria-hidden="true" class="github icon"></i></button>
-          </a>
+            <a href="https://www.linkedin.com/in/zachperkins" target="_blank">
+              <button class="ui linkedin circular icon button"><i aria-hidden="true" class="linkedin icon"></i></button>
+            </a>
+            <a href="https://github.com/partofaplan" target="_blank">
+              <button class="ui github circular icon button"><i aria-hidden="true" class="github icon"></i></button>
+            </a>
         </footer>
       )}
-      </div>
-  )
-}
+    </div>
+    )
+  }
