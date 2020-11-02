@@ -75,6 +75,9 @@ export default function Layout({ children, home }) {
             <a href="https://github.com/partofaplan" target="_blank">
               <button class="ui github circular icon button"><i aria-hidden="true" class="github icon"></i></button>
             </a>
+            <a href="/documents/resume.pdf" target="_blank">
+              <button class="ui icon right labeled blue button">Download my resume<i aria-hidden="true" class="file outline icon"></i></button>
+            </a>
         </footer>
       )}
     </div>
