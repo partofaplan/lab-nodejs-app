@@ -6,9 +6,8 @@
     "\\pages\\posts",
     "\\public",
     "\\public\\images",
-    "\\static",
     "\\styles"
   ],
-  "SelectedNode": "\\pages\\posts\\portfolio.js",
+  "SelectedNode": "\\components\\layout.js",
   "PreviewInSolutionExplorer": false
 }

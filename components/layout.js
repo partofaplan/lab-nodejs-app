@@ -68,7 +68,7 @@ export default function Layout({ children, home }) {
         </div>
       )}
       {!home && (
-        <footer classname={styles.footer}>
+        <footer className={styles.footer}>
           <a href="https://www.linkedin.com/in/zachperkins" target="_blank">
             <button class="ui linkedin circular icon button"><i aria-hidden="true" class="linkedin icon"></i></button>
           </a>
