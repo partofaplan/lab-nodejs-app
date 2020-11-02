@@ -28,7 +28,7 @@ export default function Home() {
         Learn more about who I am <a href="/posts/portfolio">inside</a>!
         </p>
         </motion.div>
-      </section>
+        </section>
     </Layout>
   )
 }

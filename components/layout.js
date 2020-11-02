@@ -80,6 +80,6 @@ export default function Layout({ children, home }) {
             </a>
         </footer>
       )}
-    </div>
+      </div>
     )
   }
