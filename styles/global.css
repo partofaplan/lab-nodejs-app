@@ -6,10 +6,6 @@ body {
     line-height: 1.6;
     font-size: 18px;
     height: 100vh;
-    background: rgb(38,79,255);
-    background: linear-gradient(90deg, rgba(38,79,255,1) 79%, rgba(255,0,0,1) 91%, rgba(255,145,0,1) 97%);
-    background-position: center center;
-    background-size: auto 100%;
 }
 * {
     box-sizing: border-box;
@@ -29,9 +25,5 @@ img {
 }
 
 .page-background-1 {
-    height: 100vh;
-    background: rgb(38,79,255);
-    background: linear-gradient(90deg, rgba(38,79,255,1) 79%, rgba(255,0,0,1) 91%, rgba(255,145,0,1) 97%);
-    background-size: auto 100%;
-    background-position: center center;
+
 }
