@@ -50,20 +50,21 @@ export default function Layout({ children, home }) {
                   <a className={utilStyles.colorInherit}>{name}</a>
                 </Link>
               </h2>
-              <h2>Cloud & DevOps Engineer</h2>
-              <div class="ui large buttons">
-                <button class="ui button">Integration</button>
+              <h2 style={{ color: "orange" }}>Cloud & DevOps Engineer</h2>
+              <div className="ui large buttons">
+                <button className="ui button">Integration</button>
                 <div class="or" data-text="+"></div>
                 <button class="ui button">Improvement</button>
               </div>
             </>
           )}
       </header>
-      <main>{children}</main>
+      <main>{children}
+      </main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a style={{ color: "black" }}>← Back to home</a>
           </Link>
         </div>
       )}
