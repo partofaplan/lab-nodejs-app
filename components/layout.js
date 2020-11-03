@@ -50,7 +50,7 @@ export default function Layout({ children, home }) {
                   <a className={utilStyles.colorInherit}>{name}</a>
                 </Link>
               </h2>
-              <h2 style={{ color: "orange" }}>Cloud & DevOps Engineer</h2>
+              <h2>Cloud & DevOps Engineer</h2>
               <div className="ui large buttons">
                 <button className="ui button">Integration</button>
                 <div class="or" data-text="+"></div>

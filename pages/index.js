@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { motion } from 'framer-motion'
-import ParticlesBg from 'particles-bg'
 
 export default function Home() {
   return (
@@ -26,11 +25,10 @@ export default function Home() {
            },
          }}>
           <h2>
-            Learn more about who I am <a style={{ color: "orange" }} href="/posts/portfolio">inside</a>!
+            Learn more about who I am <a href="/posts/portfolio">inside</a>!
         </h2>
         </motion.div>
       </section>
-      <ParticlesBg type="polygons" bg={true} />
       </Layout>
   )
 }

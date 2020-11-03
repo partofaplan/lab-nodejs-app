@@ -4,10 +4,8 @@
     "\\components",
     "\\pages",
     "\\pages\\posts",
-    "\\public\\documents",
-    "\\public\\images",
     "\\styles"
   ],
-  "SelectedNode": "\\components\\layout.js",
+  "SelectedNode": "\\styles\\global.css",
   "PreviewInSolutionExplorer": false
 }

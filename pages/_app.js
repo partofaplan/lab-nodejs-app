@@ -9,7 +9,3 @@ export default function App({ Component, pageProps }) {
       </div>
   )
 }
-
-if (typeof window === 'undefined') {
-  global.window = {}
-}
