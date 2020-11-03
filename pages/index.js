@@ -10,7 +10,7 @@ export default function Home() {
         <title>Zach Perkins' Portfolio</title>
       </Head>
       <section className={utilStyles.headingMd}>
-         <p>Welcome to my portfolio website! I'm glad you came!</p>
+         <h2>Welcome to my portfolio website! I'm glad you came!</h2>
          <motion.div initial="hidden" animate="visible" variants={{
            hidden: {
              scale: .8,
@@ -24,11 +24,11 @@ export default function Home() {
              }
            },
          }}>
-        <p>
+        <h2>
         Learn more about who I am <a href="/posts/portfolio">inside</a>!
-        </p>
+        </h2>
         </motion.div>
         </section>
-    </Layout>
+      </Layout>
   )
 }

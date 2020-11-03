@@ -45,7 +45,7 @@ export default function Portfolio() {
         <br />
         <Certifications />
         <br />
-      </motion.div>
+        </motion.div>
     </Layout>
   )
 };
