@@ -6,8 +6,8 @@ body {
     line-height: 1.6;
     font-size: 18px;
     height: 100%;
-    background: rgb(180,58,58);
-    background: linear-gradient(90deg, rgba(180,58,58,1) 16%, rgba(252,238,69,1) 50%, rgba(230,16,229,1) 90%);
+    background: rgb(225,251,63);
+    background: radial-gradient(circle, rgba(225,251,63,1) 0%, rgba(252,70,107,1) 100%);
     background-position: center center;
     background-size: cover;
 }
@@ -30,8 +30,8 @@ img {
 
 .page-background-1 {
     height: 100vh;
-    background: rgb(180,58,58);
-    background: linear-gradient(90deg, rgba(180,58,58,1) 16%, rgba(252,238,69,1) 50%, rgba(230,16,229,1) 90%);
+    background: rgb(225,251,63);
+    background: radial-gradient(circle, rgba(225,251,63,1) 0%, rgba(252,70,107,1) 100%);
     background-position: center center;
     background-size: cover;
 }
