@@ -10,10 +10,11 @@
   "dependencies": {
     "@material-ui/core": "5.0.0-alpha.9",
     "bootstrap": "^4.5.3",
-    "framer-motion": "latest",
+    "framer-motion": "4.1.17",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-helmet": "^6.1.0",
     "reactstrap": "8.6.0",
     "semantic-ui-css": "2.4.1",
     "semantic-ui-react": "2.0.1"

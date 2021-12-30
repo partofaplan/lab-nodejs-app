@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Zach Perkins'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'Call Your Shots 2022'
+export const siteTitle = 'Call Your Shots 2022'
 
 export default function Layout({ children, home }) {
   return (
@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Project for learning how to build a Next.js site"
+          content="F3 Omaha Call Your Shots Challenge 2022"
         />
         <meta
           property="og:image"
@@ -28,8 +28,8 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/handsome.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+              src="/images/f3omaha_header.png"
+              className={`${styles.headerHomeImage}`}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -39,8 +39,8 @@ export default function Layout({ children, home }) {
               <Link href="/">
                 <a>
                   <img
-                    src="/images/handsome.jpg"
-                    className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                    src="/images/f3omaha_header.png"
+                    className={`${styles.headerImage}`}
                     alt={name}
                   />
                 </a>
@@ -50,12 +50,6 @@ export default function Layout({ children, home }) {
                   <a className={utilStyles.colorInherit}>{name}</a>
                 </Link>
               </h2>
-              <h2>Cloud & DevOps Engineer</h2>
-              <div className="ui large buttons">
-                <button className="ui button">Integration</button>
-                <div class="or" data-text="+"></div>
-                <button class="ui button">Improvement</button>
-              </div>
             </>
           )}
       </header>
@@ -75,9 +69,6 @@ export default function Layout({ children, home }) {
             </a>
             <a href="https://github.com/partofaplan" target="_blank">
               <button class="ui github circular icon button"><i aria-hidden="true" class="github icon"></i></button>
-            </a>
-            <a href="/documents/resume.pdf" target="_blank">
-              <button class="ui icon right labeled blue button">Download my resume<i aria-hidden="true" class="file outline icon"></i></button>
             </a>
         </footer>
       )}

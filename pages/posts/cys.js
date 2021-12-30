@@ -5,6 +5,7 @@ import Layout from "../../components/layout"
 import Experience from "../../components/experience"
 import Education from "../../components/education"
 import Certifications from "../../components/certifications"
+import Goals from "../../components/goals"
 
 export default function cys() {
   return (
@@ -44,6 +45,8 @@ export default function cys() {
         <Education />
         <br />
         <Certifications />
+        <br />
+        <Goals />
         <br />
         </motion.div>
     </Layout>

@@ -3,6 +3,7 @@
     padding: 0 5rem;
     height: 100%;
     margin: 3rem auto 6rem;
+    color: black;
 }
 
 .header {
@@ -13,12 +14,12 @@
 }
 
 .headerImage {
-  width: 6rem;
+  width: flex;
   height: 6rem;
 }
 
 .headerHomeImage {
-  width: 8rem;
+  width: flex;
   height: 8rem;
 }
 
