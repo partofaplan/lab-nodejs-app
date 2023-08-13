@@ -31,3 +31,4 @@ yarn-error.log*
 
 # visual studio
 /.vs
+node_modules
