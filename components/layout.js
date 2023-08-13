@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Call Your Shots 2022'
-export const siteTitle = 'Call Your Shots 2022'
+const name = 'Portfolio'
+export const siteTitle = 'Zach Perkins - Portfolio 2023'
 
 export default function Layout({ children, home }) {
   return (
@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="F3 Omaha Call Your Shots Challenge 2022"
+          content="Cloud & Devops Engineer"
         />
         <meta
           property="og:image"
@@ -28,8 +28,8 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/f3omaha_header.png"
-              className={`${styles.headerHomeImage}`}
+              src="/images/handsome.jpg"
+              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -39,8 +39,8 @@ export default function Layout({ children, home }) {
               <Link href="/">
                 <a>
                   <img
-                    src="/images/f3omaha_header.png"
-                    className={`${styles.headerImage}`}
+                    src="/images/handsome.jpg"
+                    className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                     alt={name}
                   />
                 </a>

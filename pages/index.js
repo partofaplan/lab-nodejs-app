@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>Call Your Shots 2022</title>
+        <title>Zach Perkins</title>
       </Head>
       <section className={utilStyles.headingMd}>
-         <h2>Welcome to the 2022 Call Your Shots Challenge! See your goals and update them!</h2>
+         <h2>Cloud & DevOps Engineer</h2>
          <motion.div initial="hidden" animate="visible" variants={{
            hidden: {
              scale: .8,
@@ -25,7 +25,7 @@ export default function Home() {
            },
          }}>
           <h2>
-            Find your goals <a href="/posts/cys">inside</a>!
+            Click here to see my <a href="/posts/cys">portfolio</a>!
         </h2>
         </motion.div>
       </section>

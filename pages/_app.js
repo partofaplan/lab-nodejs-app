@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     return (
       <div className="page-background-1">
         <Component {...pageProps} />
-        <Helmet bodyAttributes={{style: 'background-color : #FFC06A'}}/>
+        <Helmet bodyAttributes={{style: 'background-color : white'}}/>
       </div>
   )
 }

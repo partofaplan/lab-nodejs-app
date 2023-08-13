@@ -10,7 +10,7 @@ export default function cys() {
   return (
     <Layout>
       <Head>
-        <title>Call Your Shots</title>
+        <title>Portfolio</title>
       </Head>
       <motion.div initial="hidden" animate="visible" variants={{
         hidden: {
